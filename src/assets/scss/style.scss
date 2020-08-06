@@ -9,10 +9,4 @@
   padding: 0px;
 }
 
-div {
-  @include bg-img($imgurl, cover, unset, 100%, 100vh);
-  @extend %centerYX;
-  h1 {
-    @include style-text(800, 90px, uppercase, $warn);
-  }
-}
+
