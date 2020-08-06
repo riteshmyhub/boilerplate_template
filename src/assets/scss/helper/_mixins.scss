@@ -1,0 +1,16 @@
+@mixin bg-img($url, $size, $attachment, $width, $height) {
+  background-image: url($url);
+  background-size: $size;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: $attachment;
+  width: $width;
+  height: $height;
+}
+
+@mixin style-text($weight, $size, $case, $color) {
+  font-weight: $weight;
+  font-size: $size;
+  text-transform: $case;
+  color: $color;
+}
